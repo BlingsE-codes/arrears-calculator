@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="arrearscalculation.css"
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ports Arrearscalculator</title>
+</head>
+        
+<body>
+  <div class="form">
+  <a href="https://www.google.com/"> 
+    <img src="Arrearscal.jpg" id="image" width="250px" height="100px">
+  </a>
+  <a href="https://login.humanmanager.net/">
+    <img src="humanmanager.PNG" id="image2" width="90px" height="40">
+  </a>
+ 
+
+   
+    <div id="hole3">
+    <div><h1> ARREARS CALCULATOR</h1></div>
+  
+      <div id="input3">
+          <label id="percentlabel1" class="percentlabel1">Percentage Added :</label>
+          <input type="number" class="percent" id="percent" min ="0"><br>
+          <label id="month" class="percentlabel1">Number of Months : </label>
+          <input type="number" class="percent" id="monthlabel1" min="0"><br>
+  
+          <label id="exp">Enter Your Basic:</label>
+          <input type="number" id="basicInput" class="inputs">
+          <button type="button" onclick="calBasic()">Load</button><br>
+          <label id="basicDisplay" class="alldisplay"></label><br>
+  
+          <label id="exp">Enter Your Trans:</label>
+          <input type="number" id="Transport" class="inputs">
+          <button id="transbtn" onclick="calTransport()">Load</button><br>
+          <label id="transDisplay" class="alldisplay"></label><br>
+  
+          <label id="exp">Enter Your Hous:</label>
+          <input type="number" id="Housing" class="inputs">
+          <button id="housebtn" onclick="calHousing()">Load</button><br>
+          <label id="houseDisplay" class="alldisplay"></label><br>
+  
+          <label id="exp">Enter Your Over:</label>
+          <input type="number" id="overtime" class="inputs" >
+          <button id="overtimebtn" onclick="overtime()">Load</button><br>
+          <label id="overtimeDisplay" class="alldisplay"></label><br>
+  
+          <label id="exp">Enter Your Meal:</label>
+          <input type="number" id="mealInput" class="inputs"  >
+          <button id="mealbtn" onclick="calmeal()">Load</button><br>
+          <label id="mealDisplay" class="alldisplay"></label><br>
+  
+          <br><br>
+          <label><h4>Have You used your annual leave?</h4></label>
+          <input type="radio" id="leaveradio1" value=""name="radiolabel"><label >Yes</label><br>
+          <input type="radio" id="leaveradio2" value=""name="radiolabel"><label name="radiolabel"> No</label><br><br>
+  
+          <label id="exp">Enter Your Medi:</label>
+          <input type="number" id="medicalInput" class="inputs"  >
+          <button id="medicalbtn" onclick="calmedical()">Load</button><br>
+          <label id="medicalDisplay" class="alldisplay"></label><br>
+  
+  
+          <label id="exp">Enter Your Leav:</label>
+          <input type="number" id="leaveInput" class="inputs" >
+          <button id="leavebtn" onclick="calleave()">Load</button><br>
+          <label id="leaveDisplay" class="alldisplay"></label>
+  
+  
+         <div id="outputhole">
+          <label id="totalDisplay"></label><br><label id="month" class="percentlabel1">Tax % : </label>
+          <input type="number" class="percent" id="taxlabel" min="0">
+          <button id="outputbtn" onclick="calculate()" >Calculate</button><br>
+          <div>
+            <button id="print">PRINT</button>
+            <p id="copywrite">  &#169 Eziefula Charles 2025</p>
+            <a href="https://gmail.com">
+              <p id="copywrite1">✉ Email: charlichal2@gmail.com</p>
+            </a>
+              </div>
+             
+         </div>
+        
+          
+  
+      </div>
+    </div>
+ 
+  </div>
+ 
+    <script src="arr.js"></script>
+</body>
+</html>
