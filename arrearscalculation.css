@@ -1,3 +1,10 @@
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 h1{
     color: rgb(51, 48, 219);
     font-size: 25px;
@@ -99,7 +106,7 @@ h4{
 }
 
 .form{
-    max-width: 450px;
+    /* max-width: 450px; */
     max-height: 1000px;
     background-color: rgb(209, 223, 235);
     text-align: center;
@@ -107,7 +114,8 @@ h4{
     padding: 10px;
     border-radius: 15px;
     box-shadow: 5px 5px 15px rgba(70, 71, 71, 0.76);
-    box-sizing: border-box;
+    
+    /* display: flex; */
 }
 
 #exp{
@@ -170,4 +178,35 @@ margin-top: 20px;
     margin-right: 200px;
 
 
+}
+
+@media screen and (max-width: 700px) {
+
+  #image { 
+    width: 120px;
+    height: 100px;
+  }
+
+  #image2 { 
+    width: 120px;
+    height: 60px;
+  }
+
+  .form {
+
+      /* width: 50%; */
+      overflow: hidden
+  }
+
+  #input3 {
+/* 
+    display: flex;
+    flex-direction:  */
+    overflow: hidden
+  }
+
+  h4 {
+
+    font-size: 15px;
+  }
 }
